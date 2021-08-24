@@ -1,0 +1,73 @@
+/* 
+
+Creator Name:: Arn Acosta
+Date Created: 08/20/2021
+Date last modified: 08/20/2021
+Most recent revision: External Stylesheet for Restaurant site 
+
+*/
+
+
+header, footer {
+    background-color: #0066ff;
+    color: #ffffff;
+    height: 120px;
+    text-align: center;
+    padding: 2px 10px 2px 00px
+
+}
+
+header {
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+body {
+    background-color: #99ffcc;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #3399ff;
+}
+
+
+li a { 
+    float: left;
+    display: block;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid black;
+    min-width: 50px; 
+}
+
+li a:visited {
+    color: #99ffff;
+    
+}
+
+li a:hover {
+    background-color: #3366ff;
+    font-weight: bolder;
+
+    
+}
+
+
+}
+
+
