@@ -1,9 +1,3 @@
-var n=25;
-var result=0;
-
-if (n%2==0) {
-    console.log(result=result+10);
-}
-else (n%2!=0) {
-console.log(result=result-n);
+for (var sum=0, sum<=25,sum++) {
+    Counter.log ()
 }
