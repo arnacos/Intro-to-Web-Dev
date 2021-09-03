@@ -1,0 +1,97 @@
+/* 
+
+Creator Name:: Arn Acosta
+Date Created: 08/20/2021
+Date last modified: 08/28/2021
+Most recent revision: Added bootstrap 
+
+*/
+
+
+header, footer {
+    background-color: #0066ff;
+    color: #ffffff;
+    height: 120px;
+    text-align: center;
+    padding: 40px 10px;
+
+}
+
+header {
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 1px;
+
+}
+
+body {
+    background-color: #99ffcc;
+    margin: 0 auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.jumbotron { 
+    justify-content: center;
+   max-height: 60px;
+   text-align: center;
+   padding: 10px;
+   margin-bottom: 2px;
+
+    
+}   
+
+
+
+
+ul li{
+    list-style-type: none;
+    padding: 19px;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    justify-content: center;
+    font-size: 18px;
+    padding: 20px;
+    color:white;
+}
+
+
+
+ul li a:visited {
+color:#0066ff;
+text-decoration: none;
+
+
+}
+
+ul li a:hover {
+background-color:rgb(150, 145, 145);
+font-weight: bolder;
+text-decoration: none;
+
+
+}
+
+.carousel-item {
+    height: 8em;
+    background-color: #777;
+    color: white;
+    margin: 1px auto;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+
+
+
