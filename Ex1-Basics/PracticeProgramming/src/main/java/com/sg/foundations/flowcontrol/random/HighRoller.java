@@ -15,6 +15,40 @@ public class HighRoller {
     
     public static void main(String[] args){
         
+        // do while
+        do{
+            
+        
+            // set
+            // int userScore = 0
+            // int computerScore = 0;
+
+            // get rounds from user
+
+            // loop based on rounds
+                // show round 1 of x
+                // get r p s from user
+                int user = 1;
+                // random r p s for computer
+                int computer = 2;
+
+                // evluate user vs computer
+
+                // display win / loose
+
+                // update rounds
+                // computerScore++; / userScore++
+
+            // dispay over all
+            
+            // ask user to play again?
+            // break if user wants to exit
+            break;
+            
+        }while(true);
+            
+        // exit
+        
         Random diceRoller = new Random();
         
         int rollResult = diceRoller.nextInt(6) + 1;
