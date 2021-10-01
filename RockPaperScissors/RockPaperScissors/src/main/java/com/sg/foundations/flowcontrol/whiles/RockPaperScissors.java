@@ -35,6 +35,7 @@ public class RockPaperScissors {
        int userScore = 0;
        int tieGame = 0;
        int counter = 1;
+       String playAgain;
        
        
        //Ask the user how many round/s he/she wants to play
@@ -144,7 +145,7 @@ public class RockPaperScissors {
         
         } while(counter <= numOfRnds); {
                  
-              }   
+                 
               //Display overall winner
               if (userScore > compScore) {
                   System.out.print("Player Wins!!!");
@@ -156,16 +157,17 @@ public class RockPaperScissors {
               
               //Ask user to play again?
               System.out.println("Play Again? (y/n)");
-              String playAgain = userInput.nextLine();
+             
+              playAgain = userInput.nextLine();
               
               if (playAgain.equals("y")){
-                      //Ask the user how many round/s he/she wants to play
-                        System.out.println("How many rounds do you want to play?");
+              //Ask the user how many round/s he/she wants to play
+             System.out.println("How many rounds do you want to play?");
                        
               }
               
-              
-           
+            } 
+       System.out.println("Thank you for playing!!!");
     }
         
 }
