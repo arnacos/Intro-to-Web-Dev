@@ -44,7 +44,14 @@ public class HighRoller {
             // ask user to play again?
             // break if user wants to exit
             break;
-            
+            // Call method to get nirandom number 
+        System.out.println(randomNum(47,55) + "% " + "Rottweiler");
+        System.out.println(randomNum(22,30) + "% " + "German Shepherd");
+        System.out.println(randomNum(10,13) + "% " + "Husky");
+        System.out.println(randomNum(5,9) + "% " + "Labrador");
+        System.out.println(randomNum(1,3) + "% " + "Great Dane");
+      
+       }
         }while(true);
             
         // exit
